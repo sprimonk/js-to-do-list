@@ -7,7 +7,7 @@ console.log(filterOption)
 
 todoButton.addEventListener('click', addToDO);
 ulList.addEventListener('click', deleteCheck);
-filterOption.addEventListener('click', filterTodo);
+filterOption.addEventListener('change', filterTodo);
 
 function addToDO(event){
     event.preventDefault();
